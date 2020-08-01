@@ -1,0 +1,106 @@
+
+@media (min-width: 320px) and (max-width: 679px) {
+
+.Tg {
+    top: 88%;
+    position: absolute;
+    width: 100%;
+    }
+    .Ptg {
+        color: rgb(255 255 255);
+        font-size: 13vh;
+        font-family: 'Italianno', cursive;
+    }
+    .bloc {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 15%;
+        width: 66%;
+        height: 12vh;
+        padding: 15px;
+        text-align: center;
+        top: 90%;
+        z-index: 1;
+    }
+    .Tem {
+        color: black;
+        font-size: 24px;
+        font-family: 'Lobster', cursive;
+    }
+    .img {
+        width: 83%;
+        height: 54vh;
+        position: absolute;
+        left: 9%;
+        top: 7%;
+    }
+    .mari1 {
+        width: 56%;
+        height: 47vh;
+        position: absolute;
+        left: 24%;
+        top: 13vh;
+        -webkit-box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
+        -moz-box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
+        box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
+    }
+    .Maria {
+        background-color: rgba(183,83,77,1);
+        width: 35%;
+        height: 6%;
+        position: absolute;
+        left: 63%;
+        top: 64%;
+        z-index: 4;
+        color: #fff;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        font-size: 31px;
+    }
+    .cont {
+        width: 72%;
+        height: 33%;
+        position: absolute;
+        top: 53%;
+        background-color: #fff;
+        left: 0%;
+        padding: 15px;
+        -webkit-box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
+        -moz-box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
+        box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
+    }
+    .Texd {
+        font-family: 'Bree Serif', serif;
+        font-size: 107%;
+        letter-spacing: 1px;
+    }
+
+  /* tercera parte  */
+  
+  /* tercera parte  fin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
