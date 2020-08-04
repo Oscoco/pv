@@ -1,100 +1,78 @@
 
 @media (min-width: 320px) and (max-width: 679px) {
-
-.Tg {
-    top: 88%;
-    position: absolute;
-    width: 100%;
+    .Num{
+        font-size: 15em;
+        top: 30px;
+        left: 16px;
     }
-    .Ptg {
-        color: rgb(255 255 255);
-        font-size: 13vh;
-        font-family: 'Italianno', cursive;
-    }
-    .bloc {
-        background-color: rgb(255, 255, 255);
-        position: absolute;
-        left: 15%;
-        width: 66%;
+    .ct {
+        width: 36%;
         height: 12vh;
-        padding: 15px;
-        text-align: center;
-        top: 90%;
-        z-index: 1;
-    }
-    .Tem {
-        color: black;
-        font-size: 24px;
-        font-family: 'Lobster', cursive;
-    }
-    .img {
-        width: 83%;
-        height: 54vh;
+        background: #facd49;
         position: absolute;
-        left: 9%;
-        top: 7%;
+        z-index: 2;
     }
-    .mari1 {
-        width: 56%;
-        height: 47vh;
+    .p2{ 
+    width: 134%;
+    height: 51vh;
+    position: absolute;
+    right: -54px;
+    top: 27vh;
+    }
+    .btcolor {
+        width: 40%;
+        height: 60vh;
+        background: #facd49;
         position: absolute;
-        left: 24%;
-        top: 13vh;
-        -webkit-box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
-        -moz-box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
-        box-shadow: -27px 20px 0px -1px rgba(183,83,77,1);
+        bottom: 0;
+        top: 80%;
+        left: 22px;
     }
-    .Maria {
-        background-color: rgba(183,83,77,1);
+    .cleft {
+        background: #facd49;
         width: 35%;
-        height: 6%;
+        height: 84vh;
         position: absolute;
-        left: 63%;
-        top: 64%;
-        z-index: 4;
-        color: #fff;
-        font-family: 'Lobster', cursive;
-        text-align: center;
-        font-size: 31px;
+        right: 0;
     }
-    .cont {
-        width: 72%;
-        height: 33%;
+/* section 2 */
+    .Plus{
+        width: 74%;
+        left: -53px;
         position: absolute;
-        top: 53%;
-        background-color: #fff;
-        left: 0%;
-        padding: 15px;
-        -webkit-box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
-        -moz-box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
-        box-shadow: 18px 20px 0px -1px rgba(183,83,77,1);
     }
-    .Texd {
+    .m1 {
+        width: 56%;
+        height: 46vh;
+        position: absolute;
+        bottom: 15em;
+        left: 141px;
+    }
+    .num2{
+        z-index: 1;
+        font-size: 21vh;
+        position: absolute;
+        top: 37px;
+        left: 39%;
+    }
+    .title {
+        position: absolute;
+        font-size: 10vh;
+        left: 0vh;
+        top: 393px;
+        color: #040404;
         font-family: 'Bree Serif', serif;
-        font-size: 107%;
-        letter-spacing: 1px;
     }
-
-  /* tercera parte  */
-  
-  /* tercera parte  fin*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .tx {
+        width: 83%;
+        height: 13vh;
+        position: absolute;
+        top: 71vh;
+        left: 6vh;
+        color: #020202;
+        font-size: 19px;
+        font-family: 'Lexend Deca', sans-serif;
+     }
 
 
 
