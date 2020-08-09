@@ -74,7 +74,20 @@
         font-family: 'Lexend Deca', sans-serif;
      }
 
-
+     /* menu */
+     .nav{
+        left: 13px;
+        padding: 16px;
+     }
+     .menu{
+        width: 275px;
+        font-family: 'Rowdies', cursive;
+        font-size: 17px;
+     }
+     .menu li {
+        list-style: none;
+        margin: 3px 16px;
+}
 
 
 
