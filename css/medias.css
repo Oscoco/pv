@@ -64,13 +64,13 @@
         font-family: 'Bree Serif', serif;
     }
     .tx {
-        width: 83%;
+        width: 81%;
         height: 13vh;
         position: absolute;
         top: 71vh;
-        left: 6vh;
+        left: 9vh;
         color: #020202;
-        font-size: 19px;
+        font-size: 17px;
         font-family: 'Lexend Deca', sans-serif;
      }
 
