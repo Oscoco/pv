@@ -1,5 +1,5 @@
 
-@media (min-width: 320px) and (max-width: 679px) {
+@media (min-width: 280px) and (max-width: 768px) {
     .Num{
         font-size: 15em;
         top: 30px;
@@ -74,20 +74,6 @@
         font-family: 'Lexend Deca', sans-serif;
      }
 
-     /* menu */
-     .nav{
-        left: 13px;
-        padding: 16px;
-     }
-     .menu{
-        width: 275px;
-        font-family: 'Rowdies', cursive;
-        font-size: 17px;
-     }
-     .menu li {
-        list-style: none;
-        margin: 3px 16px;
-}
 
 
 
