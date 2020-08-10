@@ -1,18 +1,40 @@
 
 @media (min-width: 280px) and (max-width: 768px) {
     .Num{
-        font-size: 15em;
-        top: 30px;
-        left: 16px;
+        font-size: 9em;
+        top: -12px;
+        right: 0;
     }
     .ct {
-        width: 36%;
-        height: 12vh;
-        background: #facd49;
-        position: absolute;
-        z-index: 2;
+       display: none;
     }
-    .p2{ 
+    .p2 {
+        width: 78%;
+        height: 69vh;
+        position: absolute;
+        right: 40px;
+        top: 12vh;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .cblack {
+        background-color: black;
+        width: 19%;
+        height: 104%;
+        position: absolute;
+        right: 119px;
+    }
+
+    .titleh {
+        position: absolute;
+        font-size: 8vh;
+        left: 13px;
+        top: 79vh;
+        width: 12%;
+        font-family: 'Bree Serif', serif;
+        color: #212020;
+        z-index: 1;
+    }
+    .p1{ 
     width: 134%;
     height: 51vh;
     position: absolute;
@@ -20,18 +42,18 @@
     top: 27vh;
     }
     .btcolor {
-        width: 40%;
-        height: 60vh;
-        background: #facd49;
-        position: absolute;
-        bottom: 0;
-        top: 80%;
-        left: 22px;
+    width: 30%;
+    height: 60vh;
+    background: #facd49;
+    position: absolute;
+    bottom: 0;
+    top: 86vh;
+    left: 0;
     }
     .cleft {
         background: #facd49;
-        width: 35%;
-        height: 84vh;
+        width: 50%;
+        height: 100vh;
         position: absolute;
         right: 0;
     }
@@ -47,13 +69,14 @@
         position: absolute;
         bottom: 15em;
         left: 141px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     .num2{
         z-index: 1;
         font-size: 21vh;
         position: absolute;
         top: 37px;
-        left: 39%;
+        left: 0;
     }
     .title {
         position: absolute;
@@ -73,6 +96,86 @@
         font-size: 17px;
         font-family: 'Lexend Deca', sans-serif;
      }
+     .colorb {
+        width: 12%;
+        height: 25%;
+        background-color: #facd49;
+        position: absolute;
+        bottom: -83px;
+    }
+
+    /* parte 3 */
+    .title03 {
+        font-size: 7vh;
+        font-family: 'Bree Serif', serif;
+    }
+    .txtpos {
+        width: 83%;
+        position: absolute;
+        top: 250px;
+        z-index: 1;
+        left: 13px;
+
+    }
+    .Ttxt{
+        color: #ffffff;
+        padding-bottom: 12px;
+        font-size: 36px;   
+    }
+    .txt03{
+        color: #020202;
+    }
+    .color03 {
+        background-color: #facd49;
+        width: 100%;
+        height: 45vh;
+        top: 37vh;
+        position: absolute;
+    }
+    .Bcolor03 {
+        display: none;
+    }
+    .texlarge {
+        color: #e4e7f5;
+        height: auto;
+        width: 185px;
+        font-family: 'Bree Serif', serif;
+        font-size: 4vh;
+        left: -9vh;
+        position: absolute;
+        top: 68px;
+        -webkit-transform: rotate(-90deg);
+    }
+    .m3 {
+        position: absolute;
+        width: 64%;
+        height: 46vh;
+        left: 15px;
+        top: -36px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .num3{
+        font-size: 9em;
+        top: 161px;
+        right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
