@@ -1,11 +1,4 @@
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-
-
-
+@media only screen and (min-width: 280px) and (max-width: 768px) {
     .Num{
         font-size: 9em;
         top: -12px;
@@ -118,7 +111,7 @@ and (max-device-width : 480px) {
     .txtpos {
         width: 83%;
         position: absolute;
-        top: 250px;
+        top: 93%;
         z-index: 1;
         left: 13px;
 
@@ -165,7 +158,6 @@ and (max-device-width : 480px) {
         top: 161px;
         right: 0;
     }
-
 
 
 
