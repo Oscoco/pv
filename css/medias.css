@@ -1,5 +1,11 @@
 
-@media (min-width: 280px) and (max-width: 768px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+
+
     .Num{
         font-size: 9em;
         top: -12px;
@@ -159,6 +165,7 @@
         top: 161px;
         right: 0;
     }
+
 
 
 
