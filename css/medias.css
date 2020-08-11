@@ -190,20 +190,20 @@
         top: 54vh;
     }
     .m7{
-        width: 32vh;
-        height: 462px;
+        width: 33vh;
+        height: 414px;
     }
     .vm1{
-        width: 263px;
+        width: 224px;
         height: 464px;
         position: absolute;
         top: 56vh;
     }
     .m5{
-        width: 263px;
-        height: 398px;
+        width: 224px;
+        height: 381px;
         position: absolute;
-        top: 925px
+         top: 812px;
     }
     .Cimg{
         width: 128%;
@@ -266,6 +266,36 @@
         bottom: 27vh;
         position: absolute;
     }
+    .flex-container {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        height: 175vh;
+        width: 68%;
+        top: 59vh;
+        left: 37px;
+        position: absolute;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .flex-item1{
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto;
+        }
+        .flex-item1{
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto; 
+        }
+        .flex-item1{
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto;
+        }
+    
 
 
 

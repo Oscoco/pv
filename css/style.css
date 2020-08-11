@@ -220,19 +220,7 @@ top: 307vh;
     position: absolute;
     top: 65px;
 }
-.m7{
-    width: 34vh;
-    height: 462px;
-}
-.vm1{
-    width: 34vh;
-    height: 464px;
-}
-.m5{
-    width: 294px;
-    height: 462px;
-    
-}
+
 .Cimg{
     width: 103%;
     height: 60vh;
@@ -288,3 +276,49 @@ top: 307vh;
     right: 0;
     position: absolute;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 106vh;
+    height: 59vh;
+    right: 17px;
+    position: absolute;
+    }
+
+.flex-item1 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item2 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    /* width: 37vh;
+    height: 59vh; */
+    }
+
+.flex-item3{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+    .m7{
+        width: 34vh;
+        height: 462px;
+    }
+    .vm1{
+        width: 34vh;
+        height: 464px;
+    }
+    .m5{
+        width: 294px;
+        height: 462px;
+        
+    }
