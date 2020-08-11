@@ -158,8 +158,115 @@
         top: 161px;
         right: 0;
     }
-
-
+/* parte04 */
+.container04{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 307vh;
+    }
+    .Ctxt04{
+        width: 100%;
+    }
+    .title04{
+        font-size:9vh ;
+        font-family: 'Bree Serif', serif;
+        padding-left: 8px;
+        padding-top: 46px;
+    }
+    .Ct04{
+        font-family: 'Lexend Deca', sans-serif;
+        width: 88%;
+        position: absolute;
+        top: 35vh;
+        left: 4vh;
+        justify-content: center;
+    }
+    .imgs{
+        width: 50%;
+        height: 60vh;
+        left: 58px;
+        position: absolute;
+        top: 54vh;
+    }
+    .m7{
+        width: 32vh;
+        height: 462px;
+    }
+    .vm1{
+        width: 263px;
+        height: 464px;
+        position: absolute;
+        top: 56vh;
+    }
+    .m5{
+        width: 263px;
+        height: 398px;
+        position: absolute;
+        top: 925px
+    }
+    .Cimg{
+        width: 128%;
+        height: 160vh;
+        display: flex;
+        position: absolute;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    
+    .num4{
+        top: 69%;
+        font-size: 10em;
+        right: 12px;
+    }
+    .Ccolor{
+        background-color: #facd49;
+        width: 11vh;
+        height: 8vh;
+        position: absolute;
+        color: #FFFF;
+        font-size: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .c2{
+        left: 251px;
+        top: 53vh;
+        width: 38%;
+        height: 70px;
+    }
+    .c3{
+        right: 209px;
+        left: -58px;
+        top: 108vh;
+        width: 38%;
+        height: 70px;
+    }
+    .txt04{
+        color: #FFFF;
+        -webkit-transform: rotate(0deg);
+        top: 24px;
+        left: 24px;
+        position: absolute;
+    }
+    .colorf{
+        background-color: #facd49;
+        width: 22px;
+        height: 23vh;
+    }
+    .colorb04{
+        background-color: #facd49;
+        width: 10px;
+        height: 88vh;
+        bottom: -115vh;
+        position: absolute
+    }
+    .colorbl04{
+        background-color: #facd49;
+        width: 10px;
+        height: 88vh;
+        bottom: 27vh;
+        right: -24px;
+        position: absolute;
+    }
 
 
 

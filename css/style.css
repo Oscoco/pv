@@ -119,8 +119,7 @@ body, html, figure, p, h1 {
     height: 12vh;
 
 }
-
-
+/* parte 03 */
 .container03{
     width: 100%;
     height: 100vh;
@@ -175,19 +174,117 @@ body, html, figure, p, h1 {
     -webkit-transform: rotate(-90deg);
 }
 .txtpos{
-width: 43%;
-position: absolute;
-left: 110px;
-top: 42px;
-z-index: 1;
+    width: 43%;
+    position: absolute;
+    left: 110px;
+    top: 42px;
+    z-index: 1;
 }
 .Ttxt{
     color: #FFFF;
     font-family: 'Bree Serif', serif;
     font-size: 4vh;
-        padding-bottom: 14px;
+    padding-bottom: 14px;
 }
 .txt03{
     color: #FFFF;
     font-family: 'Lexend Deca', sans-serif;
+}
+/* parte04 */
+.container04{
+width: 100%;
+height: 100vh;
+position: absolute;
+top: 307vh;
+}
+.Ctxt04{
+    width: 48%;
+}
+.title04{
+    font-size:9vh ;
+    font-family: 'Bree Serif', serif;
+    padding-left: 8px;
+    padding-top: 46px;
+}
+.Ct04{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 28%;
+    position: absolute;
+    top: 40vh;
+    left: 10vh
+}
+.imgs{
+    width: 50%;
+    height: 60vh;
+    right: 57px;
+    position: absolute;
+    top: 65px;
+}
+.m7{
+    width: 34vh;
+    height: 462px;
+}
+.vm1{
+    width: 34vh;
+    height: 464px;
+}
+.m5{
+    width: 294px;
+    height: 462px;
+    
+}
+.Cimg{
+    width: 103%;
+    height: 60vh;
+    display: flex;
+    position: absolute;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.num4{
+    top: 50%;
+    font-size: 23em;
+    right: 31px;
+}
+.Ccolor{
+    background-color: #facd49;
+    width: 9vh;
+    height: 20vh;
+    position: absolute;
+    color: #FFFF;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+.c2{
+    left: 257px;
+}
+.c3{
+    right: 209px;
+}
+.txt04{
+    color: #FFFF;
+    -webkit-transform: rotate(-90deg);
+    top: 63px;
+    position: absolute;
+}
+.colorf{
+    background-color: #facd49;
+    width: 22px;
+    height: 23vh;
+}
+.colorb04{
+    background-color: #facd49;
+    width: 156px;
+    height: 12vh;
+    bottom: 0;
+    position: absolute;
+}
+.colorbl04{
+    background-color: #facd49;
+    width: 105px;
+    height: 8vh;
+    bottom: -72px;
+    right: 0;
+    position: absolute;
 }
