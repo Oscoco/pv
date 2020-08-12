@@ -1,4 +1,4 @@
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 280px) and (max-width: 599px) {
     .Num{
         font-size: 9em;
         top: -12px;
@@ -13,6 +13,7 @@
         position: absolute;
         right: 40px;
         top: 12vh;
+
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     .cblack {
@@ -34,20 +35,20 @@
         z-index: 1;
     }
     .p1{ 
-    width: 134%;
-    height: 51vh;
-    position: absolute;
-    right: -54px;
-    top: 27vh;
+        width: 134%;
+        height: 51vh;
+        position: absolute;
+        right: -54px;
+        top: 27vh;
     }
     .btcolor {
-    width: 30%;
-    height: 60vh;
-    background: #facd49;
-    position: absolute;
-    bottom: 0;
-    top: 86vh;
-    left: 0;
+        width: 30%;
+        height: 60vh;
+        background: #facd49;
+        position: absolute;
+        bottom: 0;
+        top: 86vh;
+        left: 0;
     }
     .cleft {
         background: #facd49;
@@ -89,7 +90,7 @@
         width: 81%;
         height: 13vh;
         position: absolute;
-        top: 71vh;
+        top: 75vh;
         left: 9vh;
         color: #020202;
         font-size: 17px;
@@ -266,35 +267,6 @@
         bottom: 27vh;
         position: absolute;
     }
-    .flex-container {
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: flex-start;
-        align-items: flex-start;
-        height: 175vh;
-        width: 68%;
-        top: 59vh;
-        left: 37px;
-        position: absolute;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        }
-        .flex-item1{
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto;
-        }
-        .flex-item1{
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto; 
-        }
-        .flex-item1{
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto;
-        }
     
 
 
