@@ -389,6 +389,7 @@ top: 307vh;
     top: -7vh;
     color: #fff;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    text-align: center;
 }
 .Cleft{
     width: 99vh;
@@ -399,4 +400,37 @@ top: 307vh;
 .txt05{
     font-size: 6vh;
     font-family: 'Bree Serif', serif;
+}
+.c-footer_logo::before, .c-footer_logo::after {
+    content: "";
+    width: calc(33.333333% - 40px);
+    height: 1px;
+    background: #000000;
+    position: absolute;
+    display: block;
+    -webkit-transition: -webkit-transform 0.4s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 0.4s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.saludo{
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 80vh;
+    height: auto;
+    padding-top: 10vh;
+}
+.logos{
+    color: #fff;
+    font-size: 5vh;
+    top: 31vh;
+    position: absolute;
+    right: 41px;
+}
+.log{
+    padding-right: 10px;
+    cursor: pointer;
+    list-style:none;
+    color: #fff;
+    text-decoration: none;
 }
