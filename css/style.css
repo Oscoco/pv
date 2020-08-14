@@ -434,3 +434,12 @@ top: 307vh;
     color: #fff;
     text-decoration: none;
 }
+.copy{
+    color: #fff;
+    position: absolute;
+    top: 37vh;
+    font-size: 11px;
+    font-family: 'Lexend Deca', sans-serif;
+    left: 6px;
+}
+
