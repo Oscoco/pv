@@ -6,9 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/medias.css">
     <link rel="shortcut icon" href="img/mari.ico"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/menu.css"> -->
     <!-- css -->
     <!-- google fonts-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
      <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap" rel="stylesheet"> <!--Numeros -->
      <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> <!-- titulos -->
      <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">  <!--letras -->
@@ -17,20 +22,26 @@
     <title>jsjsjsj</title>
 </head>
 <body>
-
+<div class="containerloader">
+    <div class="loader-wrapper">
+    <div class="loader-1"></div>
+    <div class="loader-2"></div>
+    <div class="loader-3"></div>
+    </div>
+</div>
 <div class="container">
-    <figure class="ct"></figure> 
+    <figure class="ct wow animate__fadeInDown" data-wow-duration="2s"></figure> 
     <section class="cleft"></section>
-    <img class="p2" src="img/m2.jpg" alt="">
+    <img class="p2 wow animate__fadeInDown" data-wow-duration="3s" src="img/m2.jpg" alt="">
     <p class="Num">01</p>
-    <p class="titleh">Colourful mind.</p>
-    <figure class="btcolor"></figure>
+    <p class="titleh ">Colourful mind.</p>
+    <figure class="btcolor wow animate__fadeInUp" data-wow-duration="3s"></figure>
 </div>
 
 <div class="container02">
     <p class="Num num2" href="">02</p>
-    <figure class="color2"></figure>
-    <img class="m1" src="img/1m.jpg" alt="">
+    <figure class="color2 wow animate__fadeInRight" data-wow-duration="3s"></figure>
+    <img class="m1 wow animate__fadeInLeft" data-wow-duration="3s" src="img/1m.jpg" alt="">
     <p class="title"> Mar&iacute;a</p>
     <br>
     <p class="tx"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet dolores similique blanditiis, unde vitae, eum est ea quo expedita sint nemo porro, labore repellendus minus consequuntur doloremque aut harum.</p>
@@ -39,21 +50,21 @@
 </div>
 
 <div class="container03">
-        <p class="Num num3">03</p>
+        <p class="Num num3 wow animate__fadeInUp" data-wow-duration="3s">03</p>
     <div class="Tcontainer03">
     <p class="title03" >Creativa y precisa</p>
     </div>
-    <div class="color03">
+    <div class="color03 wow animate__fadeIn" data-wow-duration="2s">
         <div class="txtpos">  
-            <h1 class="Ttxt"><p>Señorita sol uwu</p></h1>
+            <h1 class="Ttxt"><p>Señorita sol</p></h1>
             <p class="txt03"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente soluta ab enim tenetur? Nulla odit culpa recusandae molestias dolorem, dolore sit odio maiores, nostrum quaerat labore quas totam, necessitatibus fuga!</p>
         </div>
         <div class="Bcolor03">
             <div class="texlarge">
-                <p>Señorita sol</p>
+                <p>Uwu</p>
             </div>
         </div>
-        <img class="m3" src="img/2m.jpg" alt="">
+        <img class="m3 wow animate__fadeInRight" data-wow-duration="3s" src="img/2m.jpg" alt="">
     </div>
 </div>
 
@@ -62,7 +73,7 @@
         <h1 class="title04">¿Que hace te hace tan especial?</h1>
         <p class="Ct04">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis animi eveniet similique aliquam laboriosam itaque voluptas neque cumque, dicta sint illum aliquid error aspernatur earum incidunt ex exercitationem! Modi?</p>
     </div>
-        <div class="containercar">
+        <div class="containercar wow animate__fadeInLeft" data-wow-duration="3s">
             <div class="card">
                 <figure class="card__thumb">
                     <img src="img/m7.jpeg" alt="Picture by Kyle Cottrell" class="card__image">
@@ -93,12 +104,12 @@
                 </figure>
             </div>
         </div>
-        <p class="Num num4">04</p>
+        <p class="Num num4 wow animate__fadeInRight" data-wow-duration="3s">04</p>
         <figure class="color4"></figure>
 </div>
 
-<footer class="container05">
-     <div class="C05">
+<footer class="container05 wow animate__fadeInUp" data-wow-duration="2s">
+     <div class="C05 wow animate__fadeInUp" data-wow-duration="2s">
          <p class="txt05"></p class="txt05">
      </div>
      <div class="Cleft">
@@ -108,6 +119,12 @@
 </footer>
 
 </body>
+<!-- <script src="js/menu.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/CSSRulePlugin.min.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </html>

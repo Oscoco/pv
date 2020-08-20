@@ -5,9 +5,9 @@ body, html, figure, p, h1 {
     margin: 0;
     padding: 0;
 }
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
-} */
+}
 ::selection {
 	color: white;
 	background: #9c1de7 ;
@@ -22,6 +22,7 @@ body, html, figure, p, h1 {
     background: #facd49;
     position: absolute;
     z-index: 2;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }       
 .cleft{
     background: #facd49;
@@ -29,6 +30,7 @@ body, html, figure, p, h1 {
     height: 111vh;
     position: absolute;
     right: 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .p2{
     width: 23%;
@@ -71,6 +73,7 @@ body, html, figure, p, h1 {
     bottom: 0;
     top: 80%;
     left: 249px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .container02{
     width: 100%;
@@ -96,13 +99,14 @@ body, html, figure, p, h1 {
     left: 117vh;
     top: -109px;
 } 
-.color2{
-    width: 37vh;
-    height: 11vh;
+.color2 {
+    width: 49vh;
+    height: 21vh;
     background-color: #facd49;
     position: absolute;
-    top: 61vh;
+    top: 48vh;
     right: 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .colorb{
     width: 12%;
@@ -148,6 +152,7 @@ body, html, figure, p, h1 {
     height: 45vh;
     top: 33vh;
     position: absolute;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .Bcolor03{
     background-color: black;
@@ -421,27 +426,5 @@ top: 307vh;
     width: 80vh;
     height: auto;
     padding-top: 10vh;
-}
-.logos{
-    color: #fff;
-    font-size: 5vh;
-    top: 31vh;
-    position: absolute;
-    right: 41px;
-}
-.log{
-    padding-right: 10px;
-    cursor: pointer;
-    list-style:none;
-    color: #fff;
-    text-decoration: none;
-}
-.copy{
-    color: #fff;
-    position: absolute;
-    top: 37vh;
-    font-size: 11px;
-    font-family: 'Lexend Deca', sans-serif;
-    left: 6px;
 }
 
