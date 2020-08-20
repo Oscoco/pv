@@ -1,5 +1,7 @@
 body{
     background-color:#e4e7f5;
+    overflow-x: hidden;
+    
 }
 body, html, figure, p, h1 {
     margin: 0;
@@ -15,6 +17,7 @@ body::-webkit-scrollbar{
 .container{
     width: 100%;
     height: 100vh;
+    position: relative;
 }    
 .ct{
     width: 25%;
@@ -37,6 +40,7 @@ body::-webkit-scrollbar{
     position: absolute;
     right: 268px;
     top: 58px;
+    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -78,14 +82,14 @@ body::-webkit-scrollbar{
 .container02{
     width: 100%;
     height: 100vh;
-    top: 100%;
-    position: absolute;
+    position: relative;
 }
 .m1{
     width: 19%;
     position: absolute;
     left: 26em;
     bottom: 3em;
+    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .title{
@@ -106,6 +110,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 48vh;
     right: 0;
+    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .colorb{
@@ -133,9 +138,8 @@ body::-webkit-scrollbar{
 /* parte 03 */
 .container03{
     width: 100%;
-    height: 100vh;
-    top: 200%;
-    position: absolute;
+    height: 116vh;
+    position: relative;
 }
 .Tcontainer03{
     width: 100%;
@@ -168,6 +172,7 @@ body::-webkit-scrollbar{
     height: 67vh;
     right: 25px;
     top: -66px;
+    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .num3{
@@ -205,9 +210,8 @@ body::-webkit-scrollbar{
 /* parte04 */
 .container04{
 width: 100%;
-height: 100vh;
-position: absolute;
-top: 307vh;
+height: 103vh;
+position: relative;
 }
 .Ctxt04{
     width: 48%;
@@ -383,9 +387,8 @@ top: 307vh;
 .container05{
     width: 100%;
     height: 40vh;
-    position: absolute;
+    position: relative;
     background-color: #0b1216;
-    top: 410vh;
 }
 .C05{
     background-color: #facd49;
